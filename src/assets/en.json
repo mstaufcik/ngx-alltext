@@ -1,0 +1,11 @@
+{
+	"dictionary": {
+		"monday": "Monday",
+		"tuesday": "Tuesday",
+		"wednesday": "Wednesday",
+		"thursday": "Thursday"
+	},
+	"home": {
+		"title": "Home <b>title</b>"
+	}
+}

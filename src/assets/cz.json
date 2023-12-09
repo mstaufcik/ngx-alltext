@@ -1,0 +1,10 @@
+{
+	"dictionary": {
+		"monday": "Pondělí",
+		"tuesday": "Úterý",
+		"wednesday": "Středa"
+	},
+	"home": {
+		"title": "Úvod"
+	}
+}

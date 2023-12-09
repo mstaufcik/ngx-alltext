@@ -1,0 +1,33 @@
+<div>
+    Title from span: <span [translate]="'home.title'"></span>
+</div>
+<div>
+    Missing translation from span: <span [translate]="'title'"></span>
+</div>
+
+<div [atPath]="'home'">
+    <div>
+        Title from span: <span [translate]="'title'"></span>
+    </div>
+    <div>
+        Title from pipe: {{ 'title' | translate }}
+    </div>
+    <div>
+        Missing from pipe: {{ 'title2' | translate }}
+    </div>
+    <div>
+        Monday from span: <span [translate]="'dictionary.monday'"></span>
+    </div>
+    <div>
+        Monday from pipe: {{ 'dictionary.monday' | translate }}
+    </div>
+    <c1>
+        <div>
+            Content title from span: <span [translate]="'title'"></span>
+        </div>
+        <div>
+            Content title from pipe: {{ 'title' | translate }}
+        </div>
+    </c1>
+</div>
+
